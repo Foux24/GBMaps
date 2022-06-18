@@ -10,10 +10,8 @@ import GoogleMaps
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
         /// Настройка ключа
         GMSServices.provideAPIKey("AIzaSyBVLLvHUXw7gY_lYRjXksIs8r1d_0uRrAI")
         return true
